@@ -10,11 +10,11 @@ const WorkCnp = () => {
         <div className="container">
           {items.map((item) => {
             return (
-              <Link>
-                <span className="item" key={item.id}>
-                  {item.name}
-                </span>
-              </Link>
+              <div key={item.id}>
+                <Link to={`/${item.id}`}>
+                  <span className="item">{item.name}</span>
+                </Link>
+              </div>
             );
           })}
         </div>

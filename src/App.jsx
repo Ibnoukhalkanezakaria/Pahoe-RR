@@ -15,7 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Work />} />
         <Route path="/about" element={<About />} />
-        <Route path="/:id" element={<OneItem />} />
+        <Route path="/:itemId" element={<OneItem />} />
       </Routes>
       <Footer />
     </BrowserRouter>
