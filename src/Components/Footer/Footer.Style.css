@@ -1,0 +1,32 @@
+.footer-cnp {
+  padding-block: 100px;
+}
+
+.even-columns {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.even-columns .col:first-child {
+  flex-basis: 700px;
+}
+.even-columns .col {
+  flex-basis: 300px;
+}
+.even-columns span {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--secondary-color);
+}
+.even-columns div {
+  flex-basis: 300px;
+}
+.even-columns div ul li {
+  display: flex;
+  flex-direction: column;
+}
+.even-columns div ul li a {
+  color: var(--secondary-color);
+  padding-bottom: 0.4rem;
+  font-weight: 500;
+}/*# sourceMappingURL=Footer.Style.css.map */

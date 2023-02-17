@@ -1,0 +1,38 @@
+.card-cnp {
+  padding-block: 50px;
+}
+.card-cnp .container h2 {
+  color: var(--secondary-color);
+  font-size: var(--f1);
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 1.3rem;
+}
+.card-cnp .container .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.card-cnp .container .row .col {
+  padding: 10px 15px;
+  border-left: 2px var(--secondary-color) solid;
+  flex-basis: 300px;
+}
+.card-cnp .container .row .col span:first-child {
+  display: block;
+  color: #696969;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+}
+.card-cnp .container .row .col span:last-child {
+  font-weight: 400;
+}
+.card-cnp .container .images {
+  margin-block: 100px;
+}
+.card-cnp .container .images .img {
+  margin-bottom: 10px;
+}
+.card-cnp .container .images .img img {
+  max-width: 100%;
+}/*# sourceMappingURL=OneItem.style.css.map */

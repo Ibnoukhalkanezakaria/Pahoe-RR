@@ -1,0 +1,17 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 2.5rem;
+  ul a {
+    color: var(--secondary-color);
+    font-size: var(--f6);
+    padding-left: 1.5rem;
+  }
+  .logo a {
+    color: var(--secondary-color);
+    font-size: var(--f6);
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}

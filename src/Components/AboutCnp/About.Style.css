@@ -1,0 +1,66 @@
+div h1 {
+  font-size: var(--f2);
+  color: var(--secondary-color);
+  padding-top: 120px;
+}
+
+div h2 {
+  font-size: var(--f2);
+  color: var(--secondary-color);
+}
+
+.services .row {
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.services .row div span {
+  font-size: var(--f3);
+  color: var(--secondary-color);
+  font-weight: 500;
+  display: block;
+  margin-bottom: 1rem;
+}
+.services .row div p {
+  line-height: 25px;
+  color: var(--secondary-color);
+}
+
+.join {
+  padding-bottom: 50px;
+}
+
+.schedule-call {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  font-weight: 600;
+  max-width: 150px;
+  cursor: pointer;
+  border: none;
+}
+.schedule-call:hover {
+  opacity: 0.5;
+}
+
+.img {
+  padding-block: 120px;
+}
+
+@media (max-width: 80em) {
+  .services .row {
+    grid-template-columns: 1fr;
+  }
+  .img {
+    padding-block: 50px;
+  }
+  div h1 {
+    padding-top: 50px;
+  }
+  .join {
+    padding-bottom: 0;
+  }
+}/*# sourceMappingURL=About.Style.css.map */

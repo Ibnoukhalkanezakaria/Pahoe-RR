@@ -1,0 +1,31 @@
+.footer-cnp {
+  padding-block: 100px;
+}
+.even-columns {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  .col:first-child {
+    flex-basis: 700px;
+  }
+  .col {
+    flex-basis: 300px;
+  }
+  span {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--secondary-color);
+  }
+  div {
+    flex-basis: 300px;
+    ul li {
+      display: flex;
+      flex-direction: column;
+      a {
+        color: var(--secondary-color);
+        padding-bottom: 0.4rem;
+        font-weight: 500;
+      }
+    }
+  }
+}

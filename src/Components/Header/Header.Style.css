@@ -1,0 +1,17 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 2.5rem;
+}
+nav ul a {
+  color: var(--secondary-color);
+  font-size: var(--f6);
+  padding-left: 1.5rem;
+}
+nav .logo a {
+  color: var(--secondary-color);
+  font-size: var(--f6);
+}
+nav .logo a:hover {
+  opacity: 0.5;
+}/*# sourceMappingURL=Header.Style.css.map */
