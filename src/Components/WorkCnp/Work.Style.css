@@ -14,9 +14,12 @@ main .container .item {
 main .container .item:hover {
   opacity: 0.5;
 }
-
 @media (max-width: 575px) {
-  .container h1 {
-    font-size: var(--f2);
+  main {
+    padding-top: 7ch;
+    padding-bottom: 2ch;
   }
-}/*# sourceMappingURL=Work.Style.css.map */
+  main .container .item {
+    font-size: calc(2rem + 4.3vw);
+  }
+}

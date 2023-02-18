@@ -2,6 +2,7 @@ import React from "react";
 import imageOne from "../../assets/img-1.jpg";
 import imageTwo from "../../assets/img-2.jpg";
 import "./About.Style.css";
+import { Img } from "./aboutcnp.styled";
 const AboutCnp = () => {
   return (
     <div className="about-cnp">
@@ -13,9 +14,9 @@ const AboutCnp = () => {
               brands & digital experiences.
             </h2>
           </div>
-          <div className="img">
+          <Img>
             <img src={imageOne} alt="image" aria-label="image" />
-          </div>
+          </Img>
           <div className="services">
             <h2>Services</h2>
             <div className="row">
@@ -41,9 +42,9 @@ const AboutCnp = () => {
               </div>
             </div>
           </div>
-          <div className="img">
+          <Img>
             <img src={imageTwo} alt="image" aria-label="image" />
-          </div>
+          </Img>
           <div className="join">
             <h2>Wanna join forces?</h2>
             <a href="https://calendly.com/" target="blank">

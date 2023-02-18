@@ -2,7 +2,6 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import "./OneItem.style.css";
 import items from "../../Data/data";
-
 const OneItem = () => {
   const { itemId } = useParams();
   const item = items.find((e) => e.id === itemId);
